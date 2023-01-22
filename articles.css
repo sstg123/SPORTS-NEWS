@@ -1,0 +1,25 @@
+.article-page {
+  width: 80%; /* Width of the article page */
+  margin: 0 auto; /* Center the article page horizontally */
+  text-align: center;
+}
+
+.article-image {
+  width: 60%; /* Width of the image */
+  margin: 0 auto; /* Center the image horizontally */
+  display: block; /* Display the image as a block element */
+}
+
+.article-title {
+  margin-top: 0px; /* Add margin between the image and the title */
+  font-size: 2.5em; /* Increase font size of the title */
+  color: white; /* Dark gray text color */
+  text-shadow: 1px 1px #fff; /* Add subtle text shadow */
+}
+
+.article-text {
+  margin-top: 10px; /* Add margin between the title and the text */
+  line-height: 1.5; /* Increase line height of the text */
+  color: white; /* Medium gray text color */
+  text-align: left;
+}

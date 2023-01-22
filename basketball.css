@@ -1,0 +1,51 @@
+body {
+  align-items: center; /* Center container element vertically */
+  justify-content: center;
+  
+}
+
+.container {
+  text-align: center; !important
+  display: flex;
+  flex-wrap: nowrap; /* Prevent wrapping of boxes */
+  justify-content: space-between; /* Add space between boxes horizontally */
+  align-items: flex-start; /* Align boxes to the top */
+  margin: 0 auto; /* Center container element horizontally */
+  margin-right: 180px;
+}
+
+.box {
+  height: 300px;
+  margin-bottom: 20px; /* Add margin between boxes vertically */
+  margin-right: 80px;
+  margin: 0 auto;
+  background-color: #f0f0f0; /* Light gray background color */
+  box-shadow: 2px 2px 5px #ccc; /* Add subtle shadow to boxes */
+  transition: all 0.2s ease-in-out; /* Add transition for hover effect */
+}
+
+.box:hover {
+  transform: scale(1.05); /* Increase box size on hover */
+  box-shadow: 4px 4px 8px #ccc; /* Increase shadow on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.box img {
+  width: 100%;
+  height: 70%; /* Reserve 30% of the height for text */
+  object-fit: cover;
+}
+
+.box h3 {
+  padding: 10px;
+  color: #333; /* Dark gray text color */
+  text-align: center;
+  text-shadow: 1px 1px #fff; /* Add subtle text shadow */
+}
+
+.box p {
+  padding: 10px;
+  color: #666; /* Medium gray text color */
+  text-align: center;
+  text-shadow: 1px 1px #fff; /* Add subtle text shadow */
+}
